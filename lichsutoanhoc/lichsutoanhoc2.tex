@@ -40,7 +40,7 @@
 	\vskip 0.1cm
 	 Nhà toán học Hy Lạp lỗi lạc nhất trước Archimedes có lẽ là Eudoxus xứ Cnidos ($408 - 355$ TCN).
 	 \vskip 0.1cm
-	Ra đời khoảng năm 408 TCN ở Cnidos trên Biển Đen, ở tuổi 23, Eudoxus bắt đầu học hình học với Archytas xứ Tarentum, và học triết học và hùng biện với Plato ở Athens. Eudoxus, quá nghèo để sống ở Athens, đã ở trọ với giá rẻ mạt tại thị trấn bến cảng Piraeus, mỗi ngày ông phải đi bộ hai dặm (1 dặm = 1,6 km) đến Học viện Plato. Sau đó, ông đến Ai Cập, nơi ông ở lại trong 16 tháng. Ông kiếm sống bằng nghề dạy học, thành lập một trường học tại Cyzicus ở Tây Bắc Tiểu Á, trường đã thu hút rất nhiều học sinh. Vào năm 365 TCN, Eudoxus trở lại Athens cùng với một lượng lớn các học trò. Ở đó, ông trở thành một đồng nghiệp của Plato.
+	Ra đời khoảng năm $408$ TCN ở Cnidos trên Biển Đen, ở tuổi $23$, Eudoxus bắt đầu học hình học với Archytas xứ Tarentum, và học triết học và hùng biện với Plato ở Athens. Eudoxus, quá nghèo để sống ở Athens, đã ở trọ với giá rẻ mạt tại thị trấn bến cảng Piraeus, mỗi ngày ông phải đi bộ hai dặm ($1$ dặm = $1{,}6$ km) đến Học viện Plato. Sau đó, ông đến Ai Cập, nơi ông ở lại trong $16$ tháng. Ông kiếm sống bằng nghề dạy học, thành lập một trường học tại Cyzicus ở Tây Bắc Tiểu Á, trường đã thu hút rất nhiều học sinh. Vào năm $365$ TCN, Eudoxus trở lại Athens cùng với một lượng lớn các học trò. Ở đó, ông trở thành một đồng nghiệp của Plato.
 	Eudoxus cũng đã mở một trường học ở Athens, có một thời gian là đối thủ cạnh tranh của Học viện Plato.
 	\vskip 0.1cm
 	Eudoxus là nhà toán học và thiên văn học hàng đầu của thời đại mình. Eudoxus đã giải quyết những khủng hoảng của toán học thời đại ông. Ông có ba cống hiến cho toán học: lý thuyết tổng quát về tỷ lệ, bổ sung nhiều kết quả nghiên cứu về tỷ lệ vàng, và phát minh ra một quy trình được gọi là \textit{phương pháp vét kiệt}.
@@ -110,27 +110,170 @@
 	Một ``đại số hình học" phải thay thế cho 11đại số số học" cũ và trong đại số mới này không thể  thêm cạnh vào diện tích hoặc thêm diện tích vào thể tích.
 	\vskip 0.1cm
 	Kể từ bây giờ, phải có một sự đồng nhất nghiêm ngặt của các thuật ngữ trong các phương trình, thí dụ, $xy = A, y \pm x = b$, với diễn giải về mặt hình học. Để tìm $y$ và $x$  ta phải xây dựng trên một cạnh cho trước $b$  một hình hình chữ nhật có chiều rộng $x$  chưa biết sao cho diện tích của hình chữ nhật vượt quá diện tích $A$  đã cho bởi hình vuông  $x^2$ (trường hợp $xy = A, y + x = b$, Hình $1$ bên trái) hoặc rút ngắn diện tích  $A$ bởi hình vuông  $x^2$ (trường hợp $xy = A, y - x = b$,  Hình $1$ bên phải). 
-
-	%Hình $1$
+	\begin{figure}[H]
+		\vspace*{-5pt}
+		\centering
+		\captionsetup{labelformat= empty, justification=centering}
+		\begin{tikzpicture}[lichsutoanhoc,scale=0.75, node font = \small]
+			\draw (0,0) rectangle (3.5,1);
+			\draw[pattern=north east lines, pattern color= lichsutoanhoc] (0,0) rectangle (2.5,1);
+			\draw (4.5,0) rectangle (9,1);
+			\draw[pattern=north east lines, pattern color= lichsutoanhoc] (4.5,0) rectangle (9,1);
+			\draw (8,0) -- (8,1);
+			\draw (1.25,0.5) node[fill = white]{$A$};
+			\draw (8,0.5) node[fill = white]{$A$};
+			\draw (1.75, 1.3) node {$b$};
+			\draw (1.75, 1.3) node {$b$};
+			\draw (6.25, 1.3) node {$b$};
+			\draw[-stealth] (1.6,1.3) -- (0, 1.3);
+			\draw[-stealth] (1.9,1.3) -- (3.5, 1.3);
+			\draw[-stealth] (6.1,1.3) -- (4.5, 1.3);
+			\draw[-stealth] (6.4,1.3) -- (8, 1.3);
+			
+			\draw (3, -0.3) node {$x$};
+			\draw (3.8, 0.5) node {$x$};
+			\draw (8.5,-0.3) node {$x$};
+			\draw (9.3, 0.5) node {$x$};
+		\end{tikzpicture}
+		\caption{\small\textit{\color{lichsutoanhoc}Hình $1$.}}
+		\vspace*{-10pt}
+	\end{figure}
 	Theo cách này, người Hy Lạp đã xây dựng lời giải của phương trình bậc hai bằng một quá trình được gọi là ``ứng dụng của diện tích", một phần của đại số hình học được trình bày chi tiết trong \textit{Cơ sở} của Euclid. 
 	\vskip 0.1cm
 	Hơn nữa, sử dụng các đoạn thẳng dẫn đến việc tránh các tỷ lệ, trong chừng mực có thể, trong toán sơ cấp. Thí dụ, phương trình tuyến tính $ax = bc$ được coi là một đẳng thức của các diện tích $ax$  và $bc$,  thay vì theo tỷ lệ -- một đẳng thức giữa hai tỷ số $a : b$  và $c : x$. Do đó, khi xây dựng tỷ lệ thứ tư, $x$  trong trường hợp này, thông thường ta dựng một hình chữ nhật $OCDB$  với các cạnh $b = OB$  và  $c = OC$ (Hình $2$) và sau đó dọc theo $OC$  đặt $OA = a$.  Được hình chữ nhật $OAEB$ và vẽ đường chéo $OE$  cắt  $CD$ tại $P$.  Bây giờ rõ ràng  $CP$ là đoạn  $x$ mong muốn, và hình chữ nhật  $OARS$ có diện tích bằng hình chữ nhật $OCDB$. 
-	
-%	Hình $2$ 
+	\begin{figure}[H]
+		\vspace*{-5pt}
+		\centering
+		\captionsetup{labelformat= empty, justification=centering}
+		\begin{tikzpicture}[lichsutoanhoc,scale=0.7, node font = \small]
+			\draw  (0.,0.)-- (4.,0.);
+			\draw  (4.,0.)-- (4.,4.);
+			\draw  (4.,4.)-- (0.,4.);
+			\draw  (0.,4.)-- (0.,0.);
+			\draw  (0.,1.)-- (3.,1.);
+			\draw  (3.,1.)-- (3.,4.);
+			\draw  (3.,4.)-- (0.,4.);
+			\draw  (0.,4.)-- (0.,1.);
+			\draw  (0.,4.)-- (4.,0.);
+			\draw  (3.,1.)-- (4.,1.);
+			\draw  (3.,1.)-- (3.,0.);
+			\draw [fill=white] (0.,0.) circle (1.5pt);
+			\draw (-0.3,-0.25) node {$B$};
+			\draw [fill=white] (4.,0.) circle (1.5pt);
+			\draw (4.3,-0.27) node {$E$};
+			\draw [fill=white] (4.,4.) circle (1.5pt);
+			\draw (4.22,4.33) node {$A$};
+			\draw [fill=white] (0.,1.) circle (1.5pt);
+			\draw (-0.38,1.07) node {$S$};
+			\draw [fill=white] (3.,1.) circle (1.5pt);
+			\draw (3.22,1.37) node {$P$};
+			\draw [fill=white] (3.,4.) circle (1.5pt);
+			\draw (2.96,4.39) node {$C$};
+			\draw [fill=white] (0.,4.) circle (1.5pt);
+			\draw (-0.32,4.33) node {$O$};
+			\draw [fill=white] (4.,1.) circle (1.5pt);
+			\draw (4.36,1.11) node {$R$};
+			\draw [fill=white] (3.,0.) circle (1.5pt);
+			\draw (3.,-0.31) node {$D$};
+		\end{tikzpicture}
+		\caption{\small\textit{\color{lichsutoanhoc}Hình $2$.}}
+		\vspace*{-10pt}
+	\end{figure}
 	Mãi đến Quyển V của \textit{Cơ sở} Euclid mới giải quyết vấn đề khó khăn về tỷ lệ.
 	\vskip 0.1cm
 	Đại số hình học Hy Lạp là quá mức nhân tạo và khó khăn đối với các độc giả hiện đại. Tuy nhiên, nó có vẻ là một công cụ tiện lợi cho những người đã sử dụng nó và trở nên thành thạo trong việc xử lý các hoạt động của nó.
 	\vskip 0.1cm
 	Luật phân phối $a(b + c + d) = ab + ac + ad$  chắc chắn là rõ ràng hơn đối với một học giả Hy Lạp hơn là sinh viên ngày nay, vì trước đây có thể dễ dàng hình dung các diện tích của hình chữ nhật trong định lý này, nói một cách đơn giản rằng hình chữ nhật trên $a$ và tổng của các đoạn $b,c,d$  bằng tổng các hình chữ nhật trên $a$  và mỗi các cạnh $b,c,d$  được lấy riêng (Hình $3$). 
-	
-%	Hình $3$		 Hình $4$
+	\begin{figure}[H]
+		\vspace*{-5pt}
+		\centering
+		\captionsetup{labelformat= empty, justification=centering}
+		\begin{tikzpicture}[lichsutoanhoc,scale=0.7, node font = \small]
+			\draw (0,0) rectangle (4,3);
+			\draw (1,0) -- (1, 3) (3,0) -- (3,3);
+			\draw (-0.3, 1.5) node {$a$};
+			\draw (0.5, 1.5) node {$ab$};
+			\draw (2, 1.5) node {$ac$};
+			\draw (3.5, 1.5) node {$ad$};
+			\draw (0.5, 3.3) node {$b$};
+			\draw (2, 3.3) node {$c$};
+			\draw (3.5, 3.3) node {$d$};
+		\end{tikzpicture}\quad
+		\begin{tikzpicture}[lichsutoanhoc,scale=0.7, node font = \small]
+			\draw  (0.,0.)-- (4.,0.);
+			\draw  (4.,0.)-- (4.,4.);
+			\draw  (4.,4.)-- (0.,4.);
+			\draw  (0.,4.)-- (0.,0.);
+			\draw  (0.,1.)-- (3.,1.);
+			\draw  (3.,1.)-- (3.,4.);
+			\draw  (3.,4.)-- (0.,4.);
+			\draw  (0.,4.)-- (0.,1.);
+			\draw  (3.,1.)-- (4.,1.);
+			\draw  (3.,1.)-- (3.,0.);
+			\draw (1.5,0.5) node {$ab$};
+			\draw (4.3,0.5) node {$b$};
+			\draw (3.5,4.3) node {$b$};
+			\draw (1.5,2.5) node {$a^2$};
+			\draw (1.5,4.3) node {$a$};
+			\draw (3.5,2.5) node {$ab$};
+			\draw (4.3,2.5) node {$a$};
+			\draw (3.5,0.5) node {$b^2$};
+		\end{tikzpicture}
+		\caption{\small\textit{\color{lichsutoanhoc}\hfill Hình $3$ \hfill\hfill Hình $4$ \hfill}}
+		\vspace*{-10pt}
+	\end{figure}
 	Một lần nữa, hệ thức $(a+ b)^2 = a^2 + 2ab + b^2$  trở nên hiển nhiên từ sơ đồ cho thấy ba hình vuông và hai hình chữ nhật bằng nhau trong Hình $4$; và hiệu của hai hình vuông $a^2 - b^2 = (a + b)(a-b)$  có thể được minh họa tương tự, như trong Hình $5$. 
-	
-%	Hình $5$		Hình $6$
+	\begin{figure}[H]
+		\vspace*{-5pt}
+		\centering
+		\captionsetup{labelformat= empty, justification=centering}
+		\begin{tikzpicture}[lichsutoanhoc, node font = \small]
+			\draw (0,0) rectangle (3,3);
+			\draw (0.6,0.6) rectangle (3,3);
+			\draw[pattern=north east lines, pattern color= lichsutoanhoc] (0.6,0) rectangle (3,0.6);
+			\draw[pattern=north east lines, pattern color= lichsutoanhoc] (0,0.6) rectangle (-0.6,3);
+			\draw (0,0.6) -- (0.6,0.6);
+			\draw (0.3,0.3) node {$b^2$};
+			\draw (0.3,1.8) node {$b$};
+			\draw (1.5,-0.3) node {$a$};
+			\draw (3.5,1.8) node {$a-b$};
+			\draw (1.2,3.3) node {$a +b$};
+			\draw [-stealth] (0.7,3.3) -- (-0.6,3.3);
+			\draw [-stealth] (1.7,3.3) -- (3,3.3);
+			\draw [-stealth] (1.3,-0.3) -- (0,-0.3);
+			\draw [-stealth] (1.7,-0.3) -- (3,-0.3);
+			\draw [-stealth] (3.3,2.1) -- (3.3,3);
+			\draw [-stealth] (3.3,1.6) -- (3.3,0.6);
+		\end{tikzpicture}
+		\caption{\small\textit{\color{lichsutoanhoc}Hình $5$.}}
+		\vspace*{-10pt}
+	\end{figure}
 	Tổng, hiệu, tích và thương của các đoạn thẳng có thể dễ dàng được xây dựng bằng một thước thẳng và một compass.  
 	\vskip 0.1cm
 	Căn bậc hai cũng không gặp khó khăn trong đại số hình học.  Muốn tìm một đoạn $x$  sao cho $x^2 = ab$, ta chỉ cần làm theo cách có thể tìm thấy trong sách giáo khoa hình học ngày nay: Lấy đoạn thẳng  $ABC$, trong đó $AB = a$  và $BC = b$  (Hình $6$). Với $AC$ là đường kính, người ta dựng một nửa hình tròn (tâm  $O$) và tại $B$  dựng  $BP$ vuông góc với $AC$. $BP$ là đoạn  $x$ cần tìm. 
-	\vskip 0.1cm
+	\begin{figure}[H]
+		\vspace*{-5pt}
+		\centering
+		\captionsetup{labelformat= empty, justification=centering}
+		\begin{tikzpicture}[lichsutoanhoc, scale=0.7, node font = \small]
+			\draw [shift={(1.5,1.)}]  plot[domain=0.:3.141592653589793,variable=\t]({1.*2.5*cos(\t r)+0.*2.5*sin(\t r)},{0.*2.5*cos(\t r)+1.*2.5*sin(\t r)});
+			\draw  (-1.,1.)-- (4.,1.);
+			\draw  (0.58,3.3245644753372616)-- (0.58,1.);
+			\draw[dashed]  (0.58,3.3245644753372616)-- (1.5,1.);
+			\draw [fill=white] (-1.,1.) circle (1.5pt);
+			\draw (-1,0.6) node {$A$};
+			\draw [fill=white] (4.,1.) circle (1.5pt);
+			\draw (4,0.6) node {$C$};
+			\draw [fill=white] (1.5,1.) circle (1.5pt);
+			\draw (1.5,0.6) node {$O$};
+			\draw [fill=white] (0.58,1.) circle (1.5pt);
+			\draw (0.6,0.6) node {$B$};
+			\draw [fill=white] (0.58,3.3245644753372616) circle (1.5pt);
+			\draw (0.6,3.6) node {$P$};
+		\end{tikzpicture}
+		\caption{\small\textit{\color{lichsutoanhoc}Hình $6$.}}
+		\vspace*{-10pt}
+	\end{figure}
 	Điều thú vị ở đây là, Euclid đã chỉ ra, có thể tránh tỷ lệ bằng cách sử dụng các diện tích.
 	\vskip 0.1cm
 	Nếu trong Hình $6$ đặt $PO = AAO = CO =r$  và $BO = s$,  khi ấy ta có 
@@ -204,93 +347,4 @@
 	\vskip 0.1cm
 	[$8$] Arpad Szabo, \textit{The beginnings of Greek Mathematics}, Springer, $1978$, $363$ p.
 \end{multicols}
-\begin{center}
-	\begin{tikzpicture}[lichsutoanhoc]
-		\draw  (0.,0.)-- (4.,0.);
-		\draw  (4.,0.)-- (4.,4.);
-		\draw  (4.,4.)-- (0.,4.);
-		\draw  (0.,4.)-- (0.,0.);
-		\draw  (0.,1.)-- (3.,1.);
-		\draw  (3.,1.)-- (3.,4.);
-		\draw  (3.,4.)-- (0.,4.);
-		\draw  (0.,4.)-- (0.,1.);
-		\draw  (0.,4.)-- (4.,0.);
-		\draw  (3.,1.)-- (4.,1.);
-		\draw  (3.,1.)-- (3.,0.);
 
-		\draw [fill=white] (0.,0.) circle (1.5pt);
-		\draw (-0.3,-0.25) node {$B$};
-		\draw [fill=white] (4.,0.) circle (1.5pt);
-		\draw (4.3,-0.27) node {$E$};
-		\draw [fill=white] (4.,4.) circle (1.5pt);
-		\draw (4.22,4.33) node {$A$};
-		\draw [fill=white] (0.,1.) circle (1.5pt);
-		\draw (-0.38,1.07) node {$S$};
-		\draw [fill=white] (3.,1.) circle (1.5pt);
-		\draw (3.22,1.37) node {$P$};
-		\draw [fill=white] (3.,4.) circle (1.5pt);
-		\draw (2.96,4.39) node {$C$};
-		\draw [fill=white] (0.,4.) circle (1.5pt);
-		\draw (-0.32,4.33) node {$O$};
-		\draw [fill=white] (4.,1.) circle (1.5pt);
-		\draw (4.36,1.11) node {$R$};
-		\draw [fill=white] (3.,0.) circle (1.5pt);
-		\draw (3.,-0.31) node {$D$};
-	\end{tikzpicture}
-\end{center}
-
-\begin{center}
-	\begin{tikzpicture}[lichsutoanhoc]
-		\draw  (0.,0.)-- (4.,0.);
-		\draw  (4.,0.)-- (4.,4.);
-		\draw  (4.,4.)-- (0.,4.);
-		\draw  (0.,4.)-- (0.,0.);
-		\draw  (0.,1.)-- (3.,1.);
-		\draw  (3.,1.)-- (3.,4.);
-		\draw  (3.,4.)-- (0.,4.);
-		\draw  (0.,4.)-- (0.,1.);
-		\draw  (3.,1.)-- (4.,1.);
-		\draw  (3.,1.)-- (3.,0.);
-		\draw (1.5,0.5) node {$ab$};
-		\draw (4.3,0.5) node {$b$};
-		\draw (3.5,4.3) node {$b$};
-		\draw (1.5,2.5) node {$a^2$};
-		\draw (1.5,4.3) node {$a$};
-		\draw (3.5,2.5) node {$ab$};
-		\draw (4.3,2.5) node {$a$};
-		\draw (3.5,0.5) node {$b^2$};
-	\end{tikzpicture}
-\end{center}
-
-\begin{center}
-	\begin{tikzpicture}[lichsutoanhoc]
-		\draw (0,0) rectangle (4,3);
-		\draw (1,0) -- (1, 3) (3,0) -- (3,3);
-		\draw (-0.3, 1.5) node {$a$};
-		\draw (0.5, 1.5) node {$ab$};
-		\draw (2, 1.5) node {$ac$};
-		\draw (3.5, 1.5) node {$ad$};
-		\draw (0.5, 3.3) node {$b$};
-		\draw (2, 3.3) node {$c$};
-		\draw (3.5, 3.3) node {$d$};
-	\end{tikzpicture}
-\end{center}
-
-\begin{center}
-	\begin{tikzpicture}[lichsutoanhoc]
-		\draw [shift={(1.5,1.)}]  plot[domain=0.:3.141592653589793,variable=\t]({1.*2.5*cos(\t r)+0.*2.5*sin(\t r)},{0.*2.5*cos(\t r)+1.*2.5*sin(\t r)});
-		\draw  (-1.,1.)-- (4.,1.);
-		\draw  (0.58,3.3245644753372616)-- (0.58,1.);
-		\draw[dashed]  (0.58,3.3245644753372616)-- (1.5,1.);
-		\draw [fill=white] (-1.,1.) circle (1.5pt);
-		\draw (-1,0.6) node {$A$};
-		\draw [fill=white] (4.,1.) circle (1.5pt);
-		\draw (4,0.6) node {$C$};
-		\draw [fill=white] (1.5,1.) circle (1.5pt);
-		\draw (1.5,0.6) node {$O$};
-		\draw [fill=white] (0.58,1.) circle (1.5pt);
-		\draw (0.6,0.6) node {$B$};
-		\draw [fill=white] (0.58,3.3245644753372616) circle (1.5pt);
-		\draw (0.6,3.6) node {$P$};
-	\end{tikzpicture}
-\end{center}
