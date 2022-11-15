@@ -70,7 +70,7 @@
 		\definecolor{qqqqff}{rgb}{0,0,1}
 		\definecolor{qqqqffa}{rgb}{1,1,1}
 		\definecolor{cqcqcq}{rgb}{0.7529411764705882,0.7529411764705882,0.7529411764705882}
-		\begin{tikzpicture}[scale=0.5,node font = \small]
+		\begin{tikzpicture}[scale=0.6,node font = \small]
 			\draw [color=qqzzcc] (0,3.196152422706632)-- (-3,-2);
 			\draw [color=qqzzcc] (-3,-2)-- (3,-2);
 			\draw [color=qqzzcc] (3,-2)-- (0,3.196152422706632);
@@ -101,7 +101,7 @@
 		\captionsetup{labelformat= empty, justification=centering}
 		\definecolor{qqqqff}{rgb}{0,0,1}
 		\definecolor{qqqqffa}{rgb}{1,1,1}
-		\begin{tikzpicture}[thachthuctoanhoc,scale=0.28]
+		\begin{tikzpicture}[thachthuctoanhoc,scale=0.35]
 			\draw [] (-5,5)-- (5,5);
 			\draw [] (5,5)-- (5,-5);
 			\draw [] (-5,5)-- (-5,-5);
@@ -149,13 +149,16 @@
 	\vskip 0.1cm
 	{\color{thachthuctoanhoc}{\usefont{T5}{qag}{b}{n} P669.}}
 	(Mức $A$) Cho tam giác $ABC$ nhọn, với $AB<AC$, nội tiếp đường tròn $(O)$. Gọi $M,N$ tương ứng là trung điểm của các cung $BC$ lớn và cung $BC$ nhỏ. Trên đường thẳng $AN$ lấy điểm $D$ sao cho $D$ nằm trong tam giác $ABC$ và không trùng với tâm đường tròn nội tiếp tam giác $ABC$. Trên đoạn thẳng $MD$ lấy điểm $T$ sao cho $\widehat{MBT}=\widehat{DCB}$. Chứng minh rằng trực tâm của tam giác $TND$ nằm trên đường thẳng $BC$.
-	\begin{center}
+	\begin{figure}[H]
+		\vspace*{-10pt}
+		\centering
+		\captionsetup{labelformat= empty, justification=centering}
 		\definecolor{qqwuqq}{rgb}{0,0.39215686274509803,0}
 		\definecolor{ffqqqq}{rgb}{1,0,0}
 		\definecolor{qqzzff}{rgb}{0,0.6,1}
 		\definecolor{qqqqff}{rgb}{0,0,1}
 		\definecolor{qqqqffa}{rgb}{1,1,1}
-		\begin{tikzpicture}[scale=0.45,node font = \small]
+		\begin{tikzpicture}[scale=0.5,node font = \small]
 			\draw [shift={(-4.52,-2)},color=qqwuqq] (0,0) -- (44.80816980779454:0.9) arc (44.80816980779454:59.48716265964927:0.9) -- cycle;
 			\draw [shift={(3,-2)},,color=qqwuqq] (0,0) -- (165.3210071481453:0.9) arc (165.3210071481453:180:0.9) -- cycle;
 			\draw [color=qqzzff] (-3.08,3.7)-- (-4.52,-2);
@@ -187,7 +190,8 @@
 			\draw [fill=qqqqffa] (-1.4124345691125013,1.0868261064673503) circle (1.6pt);
 			\draw[color=qqqqff] (-1,1.1) node {$T$};
 		\end{tikzpicture}
-	\end{center}
+		\vspace*{-10pt}
+	\end{figure}
 	\hfill\textit{Đỗ Đại Phong, Thừa Thiên Huế}
 	\vskip 0.1cm
 	{\color{thachthuctoanhoc}{\usefont{T5}{qag}{b}{n} P670.}}
@@ -204,9 +208,9 @@
 	\setlength{\belowdisplayskip}{4pt}
 	{\color{thachthuctoanhoc}{\usefont{T5}{qag}{b}{n} P631.}}
 	(Mức $B$) Các số tự nhiên, bắt đầu từ $20$, được viết liên tiếp nhau thành một hàng ngang, như sau:
-	\vskip 0.1cm
-	\centerline{$2021222324252627\ldots.$}
 	\vskip 0.05cm
+	\columnbreak
+	\centerline{$2021222324252627\ldots.$}
 	Hỏi chữ số ở vị trí thứ $2022$, kể từ trái qua phải, là chữ số nào?
 	\vskip 0.05cm
 	\textbf{\color{thachthuctoanhoc}Lời giải} (\textit{của bạn Võ Trần Tiến, lớp $8^5$, trường THCS Long Bình Điền, tỉnh Tiền Giang})\textbf{\color{thachthuctoanhoc}.}
@@ -262,14 +266,13 @@
 	\vskip 0.05cm
 	Ta có:
 	\begin{align*}
-		(2)\Leftrightarrow &{\left( {\frac{1}{{1 + a}} - \frac{1}{{1 + b}}} \right)^2} \\
-		&= \frac{1}{{1 + ab}} - \frac{2}{{\left( {1 + a} \right)\left( {1 + b} \right)}}\\
-		\Leftrightarrow &\frac{{{{\left( {a - b} \right)}^2}}}{{{{\left( {1 + a} \right)}^2}{{\left( {1 + b} \right)}^2}}} \\
-		&= \frac{{a + b - ab - 1}}{{\left( {1 + ab} \right)\left( {1 + a} \right)\left( {1 + b} \right)}}\\
-		\Leftrightarrow&\, \frac{{{{\left( {a - b} \right)}^2}}}{{\left( {1 + a} \right)\left( {1 + b} \right)}}= \frac{{ - \left( {1 - a} \right)\left( {1 - b} \right)}}{{1 + ab}}\\
-		\Leftrightarrow &\left( {1 \!+\! ab} \right)\!{\left( {a \!-\! b} \right)^2} \!+\! \left(\!\! {1 \!-\! {a^2}} \right)\!\!\left(\!\! {1 \!-\! {b^2}} \right) \!=\! 0\\
-		\Leftrightarrow &\,\,ab{\left( {a - b} \right)^2} + {\left( {ab - 1} \right)^2} = 0\\
-		\Leftrightarrow &\,{\left( {a - b} \right)^2} = {\left( {ab - 1} \right)^2} = 0 \text{ (do $ab>0$)}\\
+		(2)\!\Leftrightarrow &{\left( {\frac{1}{{1 + a}} - \frac{1}{{1 + b}}} \right)^2} \\[-0.4ex]
+		&= \frac{1}{{1 + ab}} - \frac{2}{{\left( {1 + a} \right)\left( {1 + b} \right)}}\\[-0.4ex]
+		\Leftrightarrow &\frac{{{{\left( {a - b} \right)}^2}}}{{{{\left(\!{1 \!+\! a}\! \right)}^2}\!{{\left( \!{1 + b}\! \right)}^2}}} \!=\! \frac{{a + b - ab - 1}}{{\left(\! {1 \!+\! ab}\! \right)\!\left(\! {1 \!+\! a}\! \right)\!\left(\! {1 + b}\! \right)}}\\[-0.4ex]
+		\Leftrightarrow&\, \frac{{{{\left( {a - b} \right)}^2}}}{{\left( {1 + a} \right)\left( {1 + b} \right)}}= \frac{{ - \left( {1 - a} \right)\left( {1 - b} \right)}}{{1 + ab}}\\[-0.4ex]
+		\Leftrightarrow &\left( {1 \!+\! ab} \right)\!{\left( {a \!-\! b} \right)^2} \!+\! \left(\!\! {1 \!-\! {a^2}} \right)\!\!\left(\!\! {1 \!-\! {b^2}} \right) \!=\! 0\\[-0.4ex]
+		\Leftrightarrow &\,\,ab{\left( {a - b} \right)^2} + {\left( {ab - 1} \right)^2} = 0\\[-0.4ex]
+		\Leftrightarrow &\,{\left( {a - b} \right)^2} = {\left( {ab - 1} \right)^2} = 0 \text{ (do $ab>0$)}\\[-0.4ex]
 		\Leftrightarrow &\,\,a = b = 1.
 	\end{align*} 
 	Vì vậy
@@ -282,9 +285,8 @@
 	\vskip 0.05cm
 	Do $a, b > 0$ nên áp dụng bất đẳng thức Cauchy -- Schwarz cho hai bộ số  $(1,\sqrt{ab})$ và  $\left(1, \sqrt{\dfrac{a}{b}}\right)$, ta được:
 	\begin{align*}
-		\frac{1}{{{{\left( {1 + a} \right)}^2}}} &= \frac{1}{{{{\left( {1 \cdot 1 + \sqrt {ab}  \cdot \sqrt {\frac{a}{b}} } \right)}^2}}} \\
-		&\ge \frac{1}{{\left( {1 + ab} \right)\left( {1 + \frac{a}{b}} \right)}} \\
-		&= \frac{b}{{\left( {1 + ab} \right)\left( {b + a} \right)}};
+		&\frac{1}{{{{\left( {1 + a} \right)}^2}}} = \frac{1}{{{{\left( {1 \cdot 1 + \sqrt {ab}  \cdot \sqrt {\frac{a}{b}} } \right)}^2}}} \\[-0.4ex]
+		\ge &\frac{1}{{\left( {1 + ab} \right)\left( {1 + \frac{a}{b}} \right)}}= \frac{b}{{\left( {1 + ab} \right)\left( {b + a} \right)}};
 	\end{align*}
 	đẳng thức xảy ra khi và chỉ khi $b = 1$.
 	\vskip 0.05cm
@@ -296,8 +298,8 @@
 	\vskip 0.05cm
 	Do đó
 	\begin{align*}
-		&\frac{1}{{{{\left( {1 + a} \right)}^2}}} + \frac{1}{{{{\left( {1 + b} \right)}^2}}} \\
-		\ge &\frac{b}{{\left( {1 + ab} \right)\left( {b + a} \right)}} + \frac{a}{{\left( {1 + ab} \right)\left( {a + b} \right)}} \\
+		&\frac{1}{{{{\left( {1 + a} \right)}^2}}} + \frac{1}{{{{\left( {1 + b} \right)}^2}}} \\[-0.4ex]
+		\ge &\frac{b}{{\left( {1 + ab} \right)\left( {b + a} \right)}} + \frac{a}{{\left( {1 + ab} \right)\left( {a + b} \right)}} \\[-0.4ex]
 		= &\frac{1}{{1 + ab}};
 	\end{align*}
 	đẳng thức xảy ra khi và chỉ khi $b = a = 1$.
@@ -443,6 +445,7 @@
 	\end{align*}
 	Vì vậy, bất đẳng thức của đề bài được chứng minh.
 	\vskip 0.05cm
+	\columnbreak
 	\textbf{\color{thachthuctoanhoc}Bình luận và Nhận xét}
 	\vskip 0.05cm
 	Trong số các lời giải Tạp chí đã nhận được từ bạn đọc, rất tiếc, có hai lời giải không được chấp nhận là lời giải hoàn chỉnh, do người giải bài không chứng minh các đánh giá mang tính ``chìa khóa" trong lời giải.
@@ -462,14 +465,14 @@
 	\textbf{\color{thachthuctoanhoc}Lời giải} (\textit{của bạn Trần Minh Hoàng, lớp $10$T$1$, trường THPT chuyên Hà Tĩnh, tỉnh Hà Tĩnh})\textbf{\color{thachthuctoanhoc}.}
 	\begin{figure}[H]
 		\centering
-		\vspace*{-5pt}
+		\vspace*{-10pt}
 		\captionsetup{labelformat= empty, justification=centering}
 		\definecolor{qqwuqq}{rgb}{0.,0.39215686274509803,0.}
 		\definecolor{uuuuuu}{rgb}{0.26666666666666666,0.26666666666666666,0.26666666666666666}
 		\definecolor{ffqqqq}{rgb}{1.,0.,0.}
 		\definecolor{xdxdff}{rgb}{0.49019607843137253,0.49019607843137253,1.}
 		\definecolor{qqqqff}{rgb}{0.,0.,1.}
-		\begin{tikzpicture}[scale=0.55,node font= \small]
+		\begin{tikzpicture}[scale=0.6,node font= \small]
 			\draw [shift={(2.1249983220271007,1.0078498119199826)},,pattern color=qqwuqq,fill=qqwuqq,fill opacity=0.10000000149011612] (0,0) -- (-0.22029171081020696:0.4) arc (-0.22029171081020696:59.198829064869955:0.4) -- cycle;
 			\draw [shift={(6.,2.)},,pattern color=qqwuqq,fill=qqwuqq,fill opacity=0.10000000149011612] (0,0) -- (169.1110677998218:0.4) arc (169.1110677998218:228.530188575502:0.4) -- cycle;
 			\draw [shift={(6.,2.)},,pattern color=qqwuqq,fill=qqwuqq,fill opacity=0.10000000149011612] (0,0) -- (169.1110677998218:0.8) arc (169.1110677998218:194.3614146618134:0.8) -- cycle;
@@ -699,12 +702,13 @@
 	\end{align*}
 	Vì thế, theo ($3$), ta có:
 	\begin{align*}
-		{3^{{4^{2003}}}} \!\!=\!\! {\left( {{3^{20}}} \right)^m} \!\!\cdot\! {3^4} \!\equiv\! 1 \!\!\cdot\! 6 \!=\! 6\left(\! {\bmod 25} \right)\!\!. \tag{$4$}
+		{3^{{4^{2003}}}} &= {\left( {{3^{20}}} \right)^m} \cdot {3^4} \equiv 1 \cdot 6 \\
+		&= 6\left( {\bmod 25} \right). \tag{$4$}
 	\end{align*}
 	Do
 	\begin{align*}
-		{4^{2003}} \equiv 0 \equiv 4\left( {\bmod 4} \right),\\
-		{4^{2003}} \equiv {\left( { - 1} \right)^{2003}} =  - 1 \equiv 4\left( {\bmod 5} \right),
+		{4^{2003}} &\equiv 0 \equiv 4\left( {\bmod 4} \right),\\
+		{4^{2003}} &\equiv {\left( { - 1} \right)^{2003}} =  - 1 \equiv 4\left( {\bmod 5} \right),
 	\end{align*}
 	và $(4, 5) = 1$, nên ${4^{2003}} \equiv 4\left( {\bmod 20} \right)$.  Do đó, tồn tại số nguyên dương $m$, sao cho
 	\begin{align*}
@@ -712,7 +716,8 @@
 	\end{align*}
 	Vì thế, theo ($3$), ta có:
 	\begin{align*}
-		{3^{{4^{2003}}}} \!\!=\!\! {\left(\! {{3^{20}}} \right)^m} \!\!\cdot\! {3^4} \!\equiv \!\!1 \!\!\cdot\! 6 \!=\! 6\left(\! {\bmod 25} \right). \tag{$5$}
+		{3^{{4^{2003}}}} &= {\left( {{3^{20}}} \right)^m} \cdot {3^4} \equiv 1 \cdot 6 \\
+		&= 6\left({\bmod 25} \right). \tag{$5$}
 	\end{align*}
 	Từ ($2$), ($4$), ($5$) suy ra
 	\begin{align*}
@@ -817,9 +822,9 @@
 	\end{align*}
 	Do $PB$, $PC$ tiếp xúc với $(O)$, tương ứng, tại $B$, $C$ nên $PB = PC$. Do đó, $C \in (P; PB)$; suy ra
 	\begin{align*}
-		\angle BSC = &\frac{1}{2}\!\left({{{360}^{\circ}} \!-\! \angle BPC} \right) \!=\! {180^{\circ}} \!-\! \frac{1}{2}\angle BPC\\[-0.5ex]
-		= \,&{180^{\circ}} - \frac{1}{2}\left( {{{180}^{\circ}} - \angle BOC} \right)\\[-0.5ex]
-		&\,\text{(do $PBOC$ là tứ giác nội tiếp)}\\[-0.5ex]
+		\angle BSC = &\frac{1}{2}\!\left({{{360}^{\circ}} \!-\! \angle BPC} \right) \!=\! {180^{\circ}} \!-\! \frac{1}{2}\angle BPC\\
+		= \,&{180^{\circ}} - \frac{1}{2}\left( {{{180}^{\circ}} - \angle BOC} \right)\\
+		&\,\text{(do $PBOC$ là tứ giác nội tiếp)}\\
 		= \,&{90^{\circ}} + \angle BAC. \tag{$2$}
 	\end{align*}
 	Từ ($1$) và ($2$), suy ra
@@ -976,7 +981,7 @@
 	\end{flushright}
 \end{multicols}
 \centerline{\textbf{\color{thachthuctoanhoc}DANH SÁCH HỌC SINH CÓ LỜI GIẢI HOÀN CHỈNH}}
-\vskip 0.1cm
+\vskip 0.2cm
 \textit{Trong các ngoặc đơn ở phần dưới đây, sau tên lớp là mã hiệu của các bài toán mà học sinh có lời giải hoàn chỉnh.}
 \begin{multicols}{2}
 	\textbf{\color{thachthuctoanhoc}KHỐI THCS}
